@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "request-reply", "request-reply", "{B93DFA54-BF1F-40F3-826B-FCB9AD48A0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.requestreply.client", "heroyan.netmq.requestreply.client\heroyan.netmq.requestreply.client.csproj", "{03BCB0A7-3D15-458D-B6D1-04DB1E575E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.requestreply.server", "heroyan.netmq.requestreply.server\heroyan.netmq.requestreply.server.csproj", "{E3BB07F0-F336-479C-80A8-03FE38305B49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publisher-subscriber", "publisher-subscriber", "{86C2C181-5FE3-49F4-8ADB-4D5EA229D717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.pubsub.client", "heroyan.netmq.pubsub.client\heroyan.netmq.pubsub.client.csproj", "{2C5005C7-E9C0-422A-84BC-873EFE3E5E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.pubsub.server", "heroyan.netmq.pubsub.server\heroyan.netmq.pubsub.server.csproj", "{01E7DABD-9F0B-4523-B383-344E99540017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "push-pull", "push-pull", "{EBF02A21-8C77-49FE-BF4D-D9561D020B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.pushpull.client", "heroyan.netmq.pushpull.client\heroyan.netmq.pushpull.client.csproj", "{8F877377-375F-4B8F-BE58-ABE7942F77FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.pushpull.server.sink", "heroyan.netmq.pushpull.server.sink\heroyan.netmq.pushpull.server.sink.csproj", "{FEC6A452-9C9E-4775-983F-FE69AE7ECF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroyan.netmq.pushpull.server.ventilator", "heroyan.netmq.pushpull.server.ventilator\heroyan.netmq.pushpull.server.ventilator.csproj", "{3EC894DE-D43E-494D-ABF1-77209DFFC796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03BCB0A7-3D15-458D-B6D1-04DB1E575E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BCB0A7-3D15-458D-B6D1-04DB1E575E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BCB0A7-3D15-458D-B6D1-04DB1E575E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BCB0A7-3D15-458D-B6D1-04DB1E575E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BB07F0-F336-479C-80A8-03FE38305B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BB07F0-F336-479C-80A8-03FE38305B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BB07F0-F336-479C-80A8-03FE38305B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BB07F0-F336-479C-80A8-03FE38305B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5005C7-E9C0-422A-84BC-873EFE3E5E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5005C7-E9C0-422A-84BC-873EFE3E5E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5005C7-E9C0-422A-84BC-873EFE3E5E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5005C7-E9C0-422A-84BC-873EFE3E5E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E7DABD-9F0B-4523-B383-344E99540017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E7DABD-9F0B-4523-B383-344E99540017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E7DABD-9F0B-4523-B383-344E99540017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E7DABD-9F0B-4523-B383-344E99540017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F877377-375F-4B8F-BE58-ABE7942F77FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F877377-375F-4B8F-BE58-ABE7942F77FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F877377-375F-4B8F-BE58-ABE7942F77FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F877377-375F-4B8F-BE58-ABE7942F77FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC6A452-9C9E-4775-983F-FE69AE7ECF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC6A452-9C9E-4775-983F-FE69AE7ECF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC6A452-9C9E-4775-983F-FE69AE7ECF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC6A452-9C9E-4775-983F-FE69AE7ECF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC894DE-D43E-494D-ABF1-77209DFFC796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC894DE-D43E-494D-ABF1-77209DFFC796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC894DE-D43E-494D-ABF1-77209DFFC796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC894DE-D43E-494D-ABF1-77209DFFC796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03BCB0A7-3D15-458D-B6D1-04DB1E575E50} = {B93DFA54-BF1F-40F3-826B-FCB9AD48A0BB}
+		{E3BB07F0-F336-479C-80A8-03FE38305B49} = {B93DFA54-BF1F-40F3-826B-FCB9AD48A0BB}
+		{2C5005C7-E9C0-422A-84BC-873EFE3E5E25} = {86C2C181-5FE3-49F4-8ADB-4D5EA229D717}
+		{01E7DABD-9F0B-4523-B383-344E99540017} = {86C2C181-5FE3-49F4-8ADB-4D5EA229D717}
+		{8F877377-375F-4B8F-BE58-ABE7942F77FD} = {EBF02A21-8C77-49FE-BF4D-D9561D020B9E}
+		{FEC6A452-9C9E-4775-983F-FE69AE7ECF53} = {EBF02A21-8C77-49FE-BF4D-D9561D020B9E}
+		{3EC894DE-D43E-494D-ABF1-77209DFFC796} = {EBF02A21-8C77-49FE-BF4D-D9561D020B9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1237EAF0-CCA2-4723-A976-F2CAE660D162}
+	EndGlobalSection
+EndGlobal
